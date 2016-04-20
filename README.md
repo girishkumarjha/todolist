@@ -11,7 +11,14 @@ We have included a blank HTML, CSS and JS file for you to get started with a bas
 
 ## Getting Started
 
-In your index.html file include Bootstrap's CSS and add a <code>script</code> tag to include your <kbd>todo.js</kbd> file.
+In your index.html file include Bootstrap's CSS and add a <code>script</code> tag to include your <code>todo.js</code> file.
+
+Review the items we covered in the lecture. There are a few ways to do this project but some of the methods you might think about using include:
+
+* <code>.appendTo()</code>
+* <code>.remove()</code>
+* <code>.parent()</code>
+* <code>.toggleClass()</code>
 
 ## Features
 
