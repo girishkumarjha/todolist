@@ -15,7 +15,7 @@ $(document).ready(function() {
   }
 
   function toggleCompleted(){
-    $(this).parent().addClass('completed')
+    $(this).parent().toggleClass('completed')
   }
 
 });
