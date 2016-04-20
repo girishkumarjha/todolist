@@ -5,7 +5,6 @@ $(document).ready(function() {
   $('#todos').on("click", ".delete", removeItem);
 
   function addItem(event){
-    event.preventDefault();
     var listItem = $('#newTodo').val();
     if(listItem === '')
       return;
@@ -15,12 +14,10 @@ $(document).ready(function() {
   }
 
   function removeItem(event){
-    event.preventDefault();
     $(this).parent().remove();
   }
 
   function toggleCompleted(event){
-    event.preventDefault();
     $(this).parent().toggleClass('completed')
   }
 
