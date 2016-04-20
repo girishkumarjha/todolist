@@ -2,8 +2,6 @@ $(document).ready(function() {
 
   $('#addItem').click(addItem);
 
-  var items = [];
-
   function addItem(){
     var listItem = $('#newTodo').val();
     $('#todos').append('<li><input type = "checkbox" class = "completeItem">' + listItem + '<i class = "glyphicon glyphicon-trash delete"></i></li>');
