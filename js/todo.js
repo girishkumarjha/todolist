@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
   $('#addItem').click(addItem);
+  $('#todos').on("change", ".completeItem", toggleCompleted);
+  $('#todos').on("click", ".delete", removeItem);
 
   function addItem(event){
     event.preventDefault();
@@ -10,14 +12,6 @@ $(document).ready(function() {
 
     $('#todos').append('<li><input type = "checkbox" class = "completeItem">' + listItem + '<i class = "glyphicon glyphicon-trash delete"></i></li>');
     $('#newTodo').val('');
-    registerEventHandlers();
-
-  }
-
-  function registerEventHandlers() {
-    $('.delete').click(removeItem);
-    $('.completeItem').off( "change");
-    $('.completeItem').on("change", toggleCompleted);
   }
 
   function removeItem(event){
