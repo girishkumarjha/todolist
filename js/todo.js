@@ -1,11 +1,5 @@
-/* todo
- [ ] use objects with completed = true/false
- [ ] use an id that lets us map through and find the item we want to manipulate
- [ ] delete an item and save to db (localStorage.removeItem)
- [ ] editable & save result
- */
 
-
+// An array for us to keep track of our tasks
 var tasks = [];
 
 $(document).ready(function() {
@@ -18,6 +12,13 @@ $(document).ready(function() {
 
   // Add a click handler to our delete buttons
   $('#todos').on("click", ".delete", removeItem);
+
+  $('#newTodo').on("keypress", function (e) {
+    if (e.which == 13) {
+      addItem();
+      e.preventDefault();
+    }
+  });
 
   // get our tasks from localstorage if they exist
   if (localStorage['tasks']) {
