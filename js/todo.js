@@ -32,7 +32,6 @@ function startEditing(event){
 }
 
 function stopEditing(event){
-  console.log('OK');
   var thisTask = $(this).parent();
   thisTask.find('.itemText').text(thisTask.find('.editTodo').val());
   thisTask.find('.itemText').show();
