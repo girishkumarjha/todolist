@@ -31,3 +31,8 @@
   text-decoration: line-through;
   opacity: .5;
 }
+
+
+.hidden {
+  display: none;
+}
