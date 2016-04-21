@@ -9,7 +9,7 @@ $(document).ready(function() {
     if(listItem === '')
       return;
 
-    $('#todos').append('<li><input type = "checkbox" class = "completeItem"><span class = "editable">' + listItem + '</span><i class = "glyphicon glyphicon-trash delete"></i></li>');
+    $('#todos').append('<li><input type = "checkbox" class = "completeItem"><span class = "editable" contenteditable="true">' + listItem + '</span><i class = "glyphicon glyphicon-trash delete"></i></li>');
     $('#newTodo').val('');
   }
 
