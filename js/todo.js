@@ -5,7 +5,12 @@ $(document).ready(function() {
   $('#todos').on("click", ".delete", removeItem);
   $('#todos').on("dblclick", ".itemText", startEditing);
   $('#todos').on("click", ".saveTodo", stopEditing);
-
+  $('#newTodo').on("keypress", function (e) {
+    if (e.which == 13) {
+      addItem();
+      e.preventDefault();
+    }
+  });
 });
 
 function addItem(event){
