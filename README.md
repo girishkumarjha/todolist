@@ -31,7 +31,9 @@ Your To Do List app can look and function however you'd like. However, we'd like
 * A user should be able to delete a task
 
 #### Day 2
-* TBA
+* A user should be able to delete all their items at once
+* A user should be able to edit their items
+* Bonus: A user should be able to still see their items if they refresh the page (localStorage)
 
 ## Looking Forward
 * How might we let a user reorder their tasks?
