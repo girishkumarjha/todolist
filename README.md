@@ -31,6 +31,7 @@ Your To Do List app can look and function however you'd like. However, we'd like
 * A user should be able to delete a task
 
 #### Day 2
+* A user should be able to hit the "enter" key to add an item
 * A user should be able to delete all their items at once
 * A user should be able to edit their items
 * Bonus: A user should be able to still see their items if they refresh the page (localStorage)
@@ -39,3 +40,12 @@ Your To Do List app can look and function however you'd like. However, we'd like
 * How might we let a user reorder their tasks?
 * How could we support organizing tasks into categories?
 * How about assigning tasks to someone else?
+
+
+## Potential Solutions
+You can check these out if you want to see examples and potential solutions. Please try to do these yourself before you see how we have built them.
+
+* [Day 1 Features](https://github.com/rcacademy/todolist/tree/gh-pages)
+* [Editable items with swapping elements](https://github.com/rcacademy/todolist/tree/editable)
+* [Editable items with contenteditable](https://github.com/rcacademy/todolist/tree/contenteditable)
+* [Local Storage Example](https://github.com/rcacademy/todolist/tree/localstorage)
