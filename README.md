@@ -54,12 +54,10 @@ You can check these out if you want to see examples and potential solutions. Ple
 ## Videos
 
 #### 1 of 3: Adding items, completing items and deleting items
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/gC3_jolCphM?rel=0" frameborder="0" allowfullscreen></iframe>
+[https://www.youtube.com/watch?v=gC3_jolCphM](https://www.youtube.com/watch?v=gC3_jolCphM)
 
 #### 2 of 3: Adding support for adding new items when you press "enter"
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/ihD5SEVz6es?rel=0" frameborder="0" allowfullscreen></iframe>
+[https://www.youtube.com/watch?v=ihD5SEVz6es](https://www.youtube.com/watch?v=ihD5SEVz6es)
 
 #### 3 of 3: Adding support for editing items
 :warning: The audio at the end of this one got messed up. Will upload a new version ASAP.
