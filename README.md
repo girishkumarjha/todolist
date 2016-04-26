@@ -61,3 +61,4 @@ You can check these out if you want to see examples and potential solutions. Ple
 
 #### 3 of 3: Adding support for editing items
 :warning: The audio at the end of this one got messed up. Will upload a new version ASAP.
+[https://www.youtube.com/watch?v=N2KzqB7I8o0](https://www.youtube.com/watch?v=N2KzqB7I8o0)
